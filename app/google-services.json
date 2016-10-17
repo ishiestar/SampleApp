@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "764133062382",
+    "project_id": "quintypesampleapp"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764133062382:android:27fbcc2f1d8d35fc",
+        "android_client_info": {
+          "package_name": "com.example.ishitasinha.sampleapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "764133062382-lll8bsiomrori80skgdtckfalp8lpako.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ishitasinha.sampleapp",
+            "certificate_hash": "5039C272EF64E12B857BE297A91CA2AFDE9C4ED7"
+          }
+        },
+        {
+          "client_id": "764133062382-654bss14ippp76g3p95acaul4smpunn7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFSEjn8OTQdSfq3PMz0Tp1wWOIqDxU3BA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

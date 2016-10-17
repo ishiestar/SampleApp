@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--App Name: Your app name for internal usage if required-->
+    <string name="qs_app_name">Quintype</string>
+
+    <!--Base URL: always ends with / -->
+    <string name="qs_base_url">http://sakshipost.staging.quintype.io</string>
+
+    <string name="qs_youtube_key">AIzaSyDFSEjn8OTQdSfq3PMz0Tp1wWOIqDxU3BA</string>
+
+    <!-- Facebook keys -->
+    <string name="qs_facebook_id">2004196063139193</string>
+    <string name="qs_facebook_secret">77c13b80fcc538d680dabec1a411585e</string>
+    <!-- Note: replace and append facebook_id at the end of the string -->
+    <string name="qs_facebook_provider_authority">com.facebook.app.FacebookContentProvider2004196063139193</string>
+
+    <string name="qs_twitter_consumer_key">1LDni34yLAcKruIkJyydeWQ5C</string>
+    <string name="qs_twitter_consumer_secret">18o0xt7zdp2yLxffmorWhAt7jSEkP7eojqK0QsxwfM42opFr6G</string>
+
+    <!-- Google keys. Add a google-services.json file to the root folder. -->
+</resources>

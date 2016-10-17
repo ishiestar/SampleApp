@@ -1,0 +1,68 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+
+    <dimen name="qs_hero_image_width">@dimen/qs_0dp</dimen>
+    <dimen name="qs_stack_item_height">@dimen/qs_99dp</dimen>
+    <!-- all dp values go here -->
+    <dimen name="qs_0dp">0dp</dimen>
+    <dimen name="qs_1dp">1dp</dimen>
+    <dimen name="qs_2dp">2dp</dimen>
+    <dimen name="qs_4dp">4dp</dimen>
+    <dimen name="qs_6dp">6dp</dimen>
+    <dimen name="qs_8dp">8dp</dimen>
+    <dimen name="qs_12dp">12dp</dimen>
+    <dimen name="qs_16dp">16dp</dimen>
+    <dimen name="qs_18dp">18dp</dimen>
+    <dimen name="qs_20dp">20dp</dimen>
+    <dimen name="qs_24dp">24dp</dimen>
+    <dimen name="qs_28dp">28dp</dimen>
+    <dimen name="qs_32dp">32dp</dimen>
+    <dimen name="qs_34dp">34dp</dimen>
+    <dimen name="qs_36dp">36dp</dimen>
+    <dimen name="qs_40dp">40dp</dimen>
+    <dimen name="qs_44dp">44dp</dimen>
+    <dimen name="qs_48dp">48dp</dimen>
+    <dimen name="qs_54dp">54dp</dimen>
+    <dimen name="qs_56dp">56dp</dimen>
+    <dimen name="qs_60dp">60dp</dimen>
+    <dimen name="qs_64dp">64dp</dimen>
+    <dimen name="qs_72dp">72dp</dimen>
+    <dimen name="qs_80dp">80dp</dimen>
+    <dimen name="qs_88dp">88dp</dimen>
+    <dimen name="qs_90dp">90dp</dimen>
+    <dimen name="qs_96dp">96dp</dimen>
+    <dimen name="qs_99dp">99dp</dimen>
+    <dimen name="qs_100dp">100dp</dimen>
+    <dimen name="qs_120dp">120dp</dimen>
+    <dimen name="qs_132dp">132dp</dimen>
+    <dimen name="qs_200dp">200dp</dimen>
+    <dimen name="qs_280dp">280dp</dimen>
+    <dimen name="qs_316dp">316dp</dimen>
+    <dimen name="qs_320dp">320dp</dimen>
+    <dimen name="qs_432dp">432dp</dimen>
+
+    <!-- all sp values go here -->
+    <dimen name="qs_4sp">4sp</dimen>
+    <dimen name="qs_6sp">6sp</dimen>
+    <dimen name="qs_8sp">8sp</dimen>
+    <dimen name="qs_9sp">9sp</dimen>
+    <dimen name="qs_12sp">12sp</dimen>
+    <dimen name="qs_14sp">14sp</dimen>
+    <dimen name="qs_16sp">16sp</dimen>
+    <dimen name="qs_18sp">18sp</dimen>
+    <dimen name="qs_19sp">19sp</dimen>
+    <dimen name="qs_20sp">20sp</dimen>
+    <dimen name="qs_24sp">24sp</dimen>
+    <dimen name="qs_28sp">28sp</dimen>
+    <dimen name="qs_32sp">32sp</dimen>
+    <dimen name="qs_40sp">40sp</dimen>
+
+    <!-- All px values here -->
+    <dimen name="qs_1px">1px</dimen>
+</resources>

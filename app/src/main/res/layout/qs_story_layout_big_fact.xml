@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/qs_image_i_bg"
+            android:layout_width="@dimen/qs_32dp"
+            android:layout_height="@dimen/qs_32dp" />
+
+        <TextView
+            android:id="@+id/qs_text_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/qs_8dp"
+            android:layout_marginStart="@dimen/qs_8dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/qs_18sp"
+            android:textStyle="bold"
+            tools:text="Hutch is history" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/qs_text_attribution"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/qs_8dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/qs_14sp"
+        tools:text="Hello world. /n You and I in this beautiful world. Green grass blue sky." />
+</LinearLayout>

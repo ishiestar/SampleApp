@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.ishitasinha.sampleapp.DetailActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/qs_320dp"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="4dp"
+            android:fitsSystemWindows="true"
+            android:transitionName="@string/headline"
+            app:collapsedTitleTextAppearance="?android:textAppearanceMedium"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleTextAppearance="?android:textAppearanceLarge"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:titleEnabled="false">
+
+            <ImageView
+                android:id="@+id/hero_image_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/qs_320dp"
+                android:fitsSystemWindows="true"
+                android:scaleType="fitCenter"
+                android:transitionName="@string/hero_image"
+                app:contentScrim="?attr/colorPrimary"
+                app:layout_collapseMode="parallax" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/qs_80dp"
+                android:layout_gravity="top"
+                android:background="@drawable/scrim_top"
+                android:fitsSystemWindows="true"
+                app:layout_collapseMode="parallax" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/app_bar_height"
+                android:layout_gravity="bottom"
+                android:background="@drawable/scrim_bottom"
+                android:fitsSystemWindows="true"
+                app:layout_collapseMode="parallax" />
+
+            <TextView
+                android:id="@+id/hero_image_caption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="@dimen/qs_4dp"
+                android:layout_marginEnd="@dimen/qs_36dp"
+                android:layout_marginLeft="@dimen/qs_20dp"
+                android:layout_marginRight="@dimen/qs_36dp"
+                android:layout_marginStart="@dimen/qs_20dp"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/qs_12sp" />
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/activity_detail_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/story_viewpager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_menu_share" />
+</android.support.design.widget.CoordinatorLayout>
