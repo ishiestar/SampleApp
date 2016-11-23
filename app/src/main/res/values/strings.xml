@@ -23,4 +23,6 @@
     <string name="night_mode_always_light">Set day theme</string>
     <string name="night_mode_always_dark">Set night theme</string>
     <string name="empty_text">There are no stories in this section.</string>
+    <string name="resize_text">Resize Text</string>
+    <string name="sample_text">The quick brown fox jumps over the lazy dog.</string>
 </resources>

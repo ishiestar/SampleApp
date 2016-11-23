@@ -28,4 +28,39 @@
         android:layout_height="wrap_content"
         android:text="@string/night_mode_auto" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingEnd="@dimen/image_element_padding_top_bottom"
+        android:paddingStart="@dimen/image_element_padding_top_bottom"
+        android:paddingTop="@dimen/image_element_padding_top_bottom"
+        android:text="@string/resize_text"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sample_text"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginEnd="@dimen/padding_small"
+        android:layout_marginStart="@dimen/padding_small"
+        android:layout_marginTop="@dimen/padding_small"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:paddingBottom="@dimen/image_element_padding_top_bottom"
+        android:paddingEnd="@dimen/image_element_padding_top_bottom"
+        android:paddingStart="@dimen/image_element_padding_top_bottom"
+        android:paddingTop="@dimen/image_element_padding_top_bottom"
+        android:text="@string/sample_text" />
+
+    <android.support.v7.widget.AppCompatSeekBar
+        android:id="@+id/text_resize_seekbar"
+        android:layout_width="@dimen/text_size_slider_width"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_small"
+        android:layout_marginTop="@dimen/padding_small"
+        android:progress="50" />
+
 </RadioGroup>
